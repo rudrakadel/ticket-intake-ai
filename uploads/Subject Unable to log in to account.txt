@@ -1,0 +1,12 @@
+Subject: Unable to log in to account
+
+Hello Support,
+
+I am unable to log in to my account since yesterday. The portal shows “Invalid session token” even after resetting the password twice.  
+Please check if there is any issue with the authentication module.
+
+Browser: Chrome 140.0  
+Username: arjun.mishra@company.com  
+
+Regards,  
+Arjun Mishra

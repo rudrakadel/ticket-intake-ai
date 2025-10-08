@@ -1,0 +1,13 @@
+Subject: Application server down - urgent
+
+Hi Team,
+
+Our production server went down at around 3:20 PM today. The dashboard shows a 500 Internal Server Error, and none of the APIs are responding.  
+Please investigate this on priority — this is affecting all live user transactions.
+
+Error log snippet:
+2025-10-08 15:21:03 ERROR ConnectionRefused: Could not connect to database
+
+Thanks,  
+Riya Patel  
+Infra Operations

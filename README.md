@@ -1,2 +1,10 @@
-# ticket-intake-ai
-A lightweight MVP frontend built with Streamlit for the AI Powered Knowledge Engine for Smart Support and Ticket Resolution project. Users can upload support tickets or input text directly, receive instant confirmation (“Done and uploaded”), and prepare data for future AI-driven analysis, classification, and resolution automation.
+ai-knowledge-engine/
+├─ app.py                   # Flask app (routes for upload & analyze)
+├─ analysis.py              # analysis functions (summary, keywords, sentiment)
+├─ db.py                    # simple SQLite wrapper for tickets metadata
+├─ uploads/                 # (created at runtime) store uploaded files
+├─ templates/
+│  └─ upload.html           # small HTML upload form
+├─ requirements.txt
+├─ README.md
+└─ example_client.sh        # curl examples
