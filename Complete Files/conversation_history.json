@@ -1,0 +1,992 @@
+[
+  {
+    "ticket_id": "_w2qemxqu",
+    "ticket_status": "Open",
+    "timestamp": 1762541637.9460325,
+    "updated_at": 1762542027.9026341,
+    "subject": "login failure",
+    "body": "I reset my password this morning but still can’t sign in. The page says “invalid credentials.” I tried Chrome/Edge, cleared cache, and verified my email. We use Okta SSO—could there be a sync or SSO override blocking access",
+    "requester_email": "temp@gmail.com",
+    "sentiment": "Negative",
+    "polarity": -0.3166666666666667,
+    "language": "en",
+    "topics": [
+      "Login Issue"
+    ],
+    "retrieved": [
+      {
+        "subject": "Support Required for Login Problems",
+        "body": "Facing occasional login difficulties, which might be related to recent system updates. Browser caches have been cleared and passwords have been reset, but the issue continues and requires your help to resolve. Please provide a solution or an alternative workaround.",
+        "answer": "<name> will assist with the login issue you're experiencing. It's clear you've already tried clearing your browser caches and resetting your passwords. To better assist you, could you provide a detailed description of the issue, including any error messages you receive when attempting to log in? We will schedule a call at <tel_num> to discuss the issue and find a solution or an alternative workaround for account number <acc_num>.",
+        "type": "Incident",
+        "queue": "Customer Service",
+        "priority": "medium",
+        "language": "en",
+        "version": "400",
+        "tags": [
+          "Login",
+          "Performance",
+          "IT",
+          "Tech Support"
+        ]
+      },
+      {
+        "subject": "Problem with Account Login",
+        "body": "Having trouble accessing my account's billing and payments. This might be due to a system error causing a missed payment. I've already tried resetting my password and clearing my browser cache, but the issue still persists. I would greatly appreciate your help in resolving this matter as soon as possible.",
+        "answer": "<name>, thank you for reaching out to us regarding the issue with accessing your account's billing and payments. We are sorry to hear that you are experiencing difficulties, even after attempting a password reset and clearing your browser cache. To assist you further, could you please provide us with your <acc_num> and a detailed description of the error message you are receiving when trying to access your account? This information will help us better understand the issue and work towards a resolution. If necessary, we may need to contact you directly.",
+        "type": "Problem",
+        "queue": "Billing and Payments",
+        "priority": "medium",
+        "language": "en",
+        "version": "400",
+        "tags": [
+          "Account",
+          "Login",
+          "Billing",
+          "Payment",
+          "Bug",
+          "Performance",
+          "IT",
+          "Tech Support"
+        ]
+      },
+      {
+        "subject": "Problems with Login After Latest Adjustments",
+        "body": "Hello Support Team, I have been encountering occasional login difficulties recently. These issues began after the latest updates to the authentication servers. I have already tried clearing my browser cache and resetting my password, but the problem still persists. The login failures are unpredictable, which makes it hard to discern a pattern. I would greatly appreciate your help in resolving this as quickly as possible to reduce user inconvenience. If you could suggest some additional troubleshooting steps or schedule a call at <tel_num>, it would be very helpful. Thank you for your prompt attention.",
+        "answer": "Hi [Name], we apologize for the login issues following the recent updates. We are aware of similar issues and are currently investigating them. To assist further, could you please provide any error messages you receive during login attempts? If necessary, we will schedule a call at <tel_num> to discuss the issue and identify a resolution to minimize user disruption as soon as possible.",
+        "type": "Problem",
+        "queue": "Customer Service",
+        "priority": "low",
+        "language": "en",
+        "version": "400",
+        "tags": [
+          "Login",
+          "Performance",
+          "IT",
+          "Tech Support"
+        ]
+      }
+    ],
+    "raw_answer": "{\n  \"priority\": \"High\",\n  \"category\": \"login-issue\",\n  \"reply\": \"Hi, sorry to hear that you're experiencing login failure despite resetting your password. Can you please provide more details such as error messages and any screenshots of the issue? We'll schedule a call at <tel_num> to discuss further and find a resolution.\"\n}",
+    "parsed_priority": "High",
+    "parsed_category": "login-issue",
+    "parsed_reply": "Hi, sorry to hear that you're experiencing login failure despite resetting your password. Can you please provide more details such as error messages and any screenshots of the issue? We'll schedule a call at <tel_num> to discuss further and find a resolution.",
+    "response_time": 64.88151526451111,
+    "model": "llama3.2:latest",
+    "knowledge_gap": {
+      "flagged": false,
+      "gap_reason": "",
+      "kb_fill_text": "The login failure was due to a particular error in our code which is solved so please try once again.",
+      "filled_by": "Admin",
+      "filled_at": 1762542027.9026341
+    },
+    "severity": "S3",
+    "source": "web"
+  },
+  {
+    "ticket_id": "c4cqnedri",
+    "ticket_status": "Open",
+    "timestamp": 1762541782.5345075,
+    "updated_at": 1762541782.5345075,
+    "subject": "App Crash",
+    "body": "After updating to Android 14, the app crashes instantly on launch with no error dialog. I reinstalled, cleared cache/data, and updated WebView. Still broken.\nanswer: Known Android 14 WebView issue. Update to app 5.1.2 or clear WebView cache. A hotfix rollout is in progress; ETA within the week.",
+    "requester_email": "temp@gmail.com",
+    "sentiment": "Neutral",
+    "polarity": -0.09999999999999999,
+    "language": "en",
+    "topics": [
+      "Technical"
+    ],
+    "retrieved": [
+      {
+        "subject": "Crash Report Feedback",
+        "body": "Reporting crashes encountered with the Smart-Sicherheitskamera app on iOS 15. Despite clearing cache and reinstalling the app, the issue still persists.",
+        "answer": "Dear <name>,\\nThank you for reporting the issue with the Smart-Sicherheitskamera app on iOS 15. We apologize for the inconvenience caused by the unexpected crashes. Since you've already tried clearing the cache and reinstalling the app, but the issue still persists, we would like to investigate further. Could you please provide details about your device model, the iOS version you're using, and the exact steps you take leading up to the app crashing? Additionally, if possible, please share any available crash logs. We will need this information to assist you better. If you prefer, we can schedule a call at your convenience.",
+        "type": "Problem",
+        "queue": "Technical Support",
+        "priority": "medium",
+        "language": "en",
+        "version": "400",
+        "tags": [
+          "Crash",
+          "Performance",
+          "Feedback",
+          "IT",
+          "Tech Support"
+        ]
+      },
+      {
+        "subject": "Report on Application Glitches",
+        "body": "Facing unanticipated application crashes with Smart-Sicherheitskamera on iOS 15. Despite clearing cache and reinstalling the app, the issue continues.",
+        "answer": "Dear <name>,\\nThank you for reporting the issue with the Smart-Sicherheitskamera app on iOS 15. We apologize for the inconvenience caused by the unexpected crashes. We understand that you have already tried clearing the cache and reinstalling the app, but the problem still persists. To better investigate the issue, could you please provide details such as your device model, the iOS version you are using, and the exact steps you take before the app crashes? Additionally, if possible, could you provide any available crash logs? Should you need to schedule a call at your convenience, please let us know.",
+        "type": "Problem",
+        "queue": "Technical Support",
+        "priority": "medium",
+        "language": "en",
+        "version": "400",
+        "tags": [
+          "Bug",
+          "Crash",
+          "Performance",
+          "IT",
+          "Tech Support"
+        ]
+      }
+    ],
+    "raw_answer": "{\n  \"priority\": \"High\",\n  \"category\": \"Technical Support\",\n  \"reply\": \"The app crash on Android 14 is a known issue. Try updating to app 5.1.2 or clearing the WebView cache. A hotfix rollout is in progress; ETA within the week.\"\n}",
+    "parsed_priority": "High",
+    "parsed_category": "Technical Support",
+    "parsed_reply": "The app crash on Android 14 is a known issue. Try updating to app 5.1.2 or clearing the WebView cache. A hotfix rollout is in progress; ETA within the week.",
+    "response_time": 31.84769630432129,
+    "model": "llama3.2:latest",
+    "knowledge_gap": {
+      "flagged": false,
+      "gap_reason": "",
+      "kb_fill_text": "",
+      "filled_by": "",
+      "filled_at": null
+    },
+    "severity": "S3",
+    "source": "web"
+  },
+  {
+    "ticket_id": "nvynkkufe",
+    "ticket_status": "Open",
+    "timestamp": 1762541840.126891,
+    "updated_at": 1762541840.126891,
+    "subject": "Refund request",
+    "body": "The headset I received is defective—left speaker is dead. I want a refund. Please share the RMA steps and timeline.\nanswer: Issue RMA with prepaid label. On receipt and inspection, process refund within 5–7 business days and notify the customer by email.",
+    "requester_email": "temp@gmail.com",
+    "sentiment": "Negative",
+    "polarity": -0.2,
+    "language": "en",
+    "topics": [
+      "Payment",
+      "Technical",
+      "Feature Request",
+      "Refund"
+    ],
+    "retrieved": [
+      {
+        "subject": "Assistance with Billing System Error",
+        "body": "Concerning the issue with the billing system, there has been a mistaken double charge on the SaaS subscription. This might be due to an error in the payment processing system. Despite our efforts to contact support and review transaction records, the issue remains unresolved. We would greatly appreciate your urgent attention to this matter and a prompt refund for the incorrect charge.",
+        "answer": "Acknowledging your concern regarding the billing system error. We apologize for the inconvenience caused by the double charge on your account. We will investigate this matter urgently and work towards resolving it as soon as possible. To facilitate the refund process, please provide your account number and the date of the incorrect charge. If necessary, we may need to schedule a convenient call to discuss the issue and confirm the details. Please let us know a suitable time for contact to ensure prompt resolution.",
+        "type": "Problem",
+        "queue": "Billing and Payments",
+        "priority": "high",
+        "language": "en",
+        "version": "400",
+        "tags": [
+          "Billing",
+          "Payment",
+          "Refund",
+          "Disruption",
+          "IT",
+          "Tech Support"
+        ]
+      },
+      {
+        "subject": "Problems with Refunds and Swaps",
+        "body": "Dear Customer Support Team,\\n\\nI hope this message reaches you well. I am writing to bring to your attention an issue I encountered with my recent request for a return and exchange. I understand that the process can sometimes be complicated, but I am experiencing delays that have caused significant inconvenience.\\n\\nFor context, I returned an item purchased from your store two weeks ago. According to your policy, refunds and exchanges are typically completed within 7 to 10 business days.",
+        "answer": "Thank you for reaching out, <name>. We apologize for the delays and the lack of updates regarding your return and exchange. To assist you quickly, could you please provide your order number and details of the item? Once received, we will promptly check the status of your return and inform you of the next steps.",
+        "type": "Incident",
+        "queue": "Returns and Exchanges",
+        "priority": "low",
+        "language": "en",
+        "version": "51",
+        "tags": [
+          "Refund",
+          "Return",
+          "Swap",
+          "Customer Support"
+        ]
+      }
+    ],
+    "raw_answer": "{\n  \"priority\": \"High\",\n  \"category\": \"Technical\",\n  \"reply\": \"We acknowledge your concern regarding the defective headset. To initiate a refund, please provide your order number and a clear description of the issue. We will process an RMA with a prepaid label and offer a refund within 5-7 business days upon receipt and inspection. You will receive a notification via email once the refund is processed.\"\n}",
+    "parsed_priority": "High",
+    "parsed_category": "Technical",
+    "parsed_reply": "We acknowledge your concern regarding the defective headset. To initiate a refund, please provide your order number and a clear description of the issue. We will process an RMA with a prepaid label and offer a refund within 5-7 business days upon receipt and inspection. You will receive a notification via email once the refund is processed.",
+    "response_time": 21.273735284805298,
+    "model": "llama3.2:latest",
+    "knowledge_gap": {
+      "flagged": false,
+      "gap_reason": "",
+      "kb_fill_text": "",
+      "filled_by": "",
+      "filled_at": null
+    },
+    "severity": "S3",
+    "source": "web"
+  },
+  {
+    "ticket_id": "ivh-ibt5i",
+    "ticket_status": "Open",
+    "timestamp": 1762541945.161653,
+    "updated_at": 1762542170.2597644,
+    "subject": "Email Alerts",
+    "body": " I stopped receiving ticket notification emails a week ago. They’re not in spam and my preferences are enabled. Others still get them.\nanswer: Check suppression/bounce list and re-enable the address. Ask user to safelist your domain and send a test notification.",
+    "requester_email": "mailer@gmail.com",
+    "sentiment": "Neutral",
+    "polarity": 0.0,
+    "language": "en",
+    "topics": [
+      "General"
+    ],
+    "retrieved": [
+      {
+        "subject": "Feedback on Delayed Notifications",
+        "body": "Customers are reporting delays in notifications. This issue might be related to recent server updates. The notification services were restarted and cache was cleared, but the problem persists.",
+        "answer": "Acknowledged the email concerning delayed notifications. Please investigate further and provide details on the recent server updates and the approximate time frame when the delays began. I would appreciate a call to discuss this matter further. My availability for a call is flexible, and you can reach me at <tel_num>. Alternatively, let me know a suitable time to contact you regarding <acc_num>. ",
+        "type": "Incident",
+        "queue": "Product Support",
+        "priority": "medium",
+        "language": "en",
+        "version": "400",
+        "tags": [
+          "Feedback",
+          "Performance",
+          "Outage",
+          "IT",
+          "Tech Support"
+        ]
+      },
+      {
+        "subject": "Notification Delays Alert",
+        "body": "Users facing delays in notifications. Recent server updates might be the cause. Restarted notification services and cleared cache, but the issue persists.",
+        "answer": "Received an email about the notification delays issue. Please investigate and provide details on the recent server updates and the approximate time frame when the delays began. I would like to schedule a call to discuss this matter further. I am available at your convenience to receive a call at <tel_num>. Alternatively, please let me know a suitable time to contact you regarding <acc_num>.",
+        "type": "Incident",
+        "queue": "Product Support",
+        "priority": "medium",
+        "language": "en",
+        "version": "400",
+        "tags": [
+          "Notification",
+          "Alert",
+          "Performance",
+          "Maintenance",
+          "IT",
+          "Tech Support"
+        ]
+      }
+    ],
+    "raw_answer": "{\n  \"priority\": \"High\",\n  \"category\": \"email-notifications\",\n  \"reply\": \"We've checked the suppression/bounce list and re-enabled your address. Please safelist our domain and send a test notification to verify receipt.\"\n}",
+    "parsed_priority": "High",
+    "parsed_category": "email-notifications",
+    "parsed_reply": "We've checked the suppression/bounce list and re-enabled your address. Please safelist our domain and send a test notification to verify receipt.",
+    "response_time": 15.048598766326904,
+    "model": "llama3.2:latest",
+    "knowledge_gap": {
+      "flagged": false,
+      "gap_reason": "",
+      "kb_fill_text": "Recheck the email list was crashed but not any more.",
+      "filled_by": "Admin",
+      "filled_at": 1762542170.2597644
+    },
+    "severity": "S3",
+    "source": "web"
+  },
+  {
+    "ticket_id": "knf0tu3sn",
+    "ticket_status": "Open",
+    "timestamp": 1762542110.4479392,
+    "updated_at": 1762542110.4479392,
+    "subject": "login Problem",
+    "body": "My user id and password is not working login is giving some problems",
+    "requester_email": "shelto@gmail.com",
+    "sentiment": "Neutral",
+    "polarity": 0.0,
+    "language": "en",
+    "topics": [
+      "Login Issue",
+      "Technical"
+    ],
+    "retrieved": [
+      {
+        "subject": "Occasional Login Problems with User Account",
+        "body": "The user has reported occasional login difficulties. This might be due to server overload. The customer has already attempted clearing their browser cache and resetting their password, but the issue remains unresolved. Assistance is needed to address this problem.",
+        "answer": "To help resolve the intermittent login issue, please provide your account details. A suitable time will be arranged to call you at <tel_num> to troubleshoot and resolve the problem soon. This may involve checking account <acc_num>.",
+        "type": "Incident",
+        "queue": "Customer Service",
+        "priority": "medium",
+        "language": "en",
+        "version": "400",
+        "tags": [
+          "Login",
+          "Account",
+          "Performance",
+          "Network",
+          "IT",
+          "Tech Support"
+        ]
+      },
+      {
+        "subject": "Problem with login system for account",
+        "body": "A user has reported difficulties with the login functionality of their account following the latest system update.",
+        "answer": "We apologize for the issues with the login system for your account. We will investigate the problem caused by the recent system update and contact you for any additional information needed to resolve it.",
+        "type": "Incident",
+        "queue": "Returns and Exchanges",
+        "priority": "low",
+        "language": "en",
+        "version": "400",
+        "tags": [
+          "Login",
+          "Account",
+          "Disruption",
+          "IT",
+          "Tech Support"
+        ]
+      }
+    ],
+    "raw_answer": "{\n  \"priority\": \"High\",\n  \"category\": \"Technical\",\n  \"reply\": \"Please provide your account ID and password. We will investigate the issue and contact you at <tel_num> to resolve the problem soon. This may involve checking account <acc_num>. (See KB_Gap_Fill: The login failure was due to a particular error in our code which is solved so please try once again.)\"\n}",
+    "parsed_priority": "High",
+    "parsed_category": "Technical",
+    "parsed_reply": "Please provide your account ID and password. We will investigate the issue and contact you at <tel_num> to resolve the problem soon. This may involve checking account <acc_num>. (See KB_Gap_Fill: The login failure was due to a particular error in our code which is solved so please try once again.)",
+    "response_time": 14.878130912780762,
+    "model": "llama3.2:latest",
+    "knowledge_gap": {
+      "flagged": false,
+      "gap_reason": "",
+      "kb_fill_text": "",
+      "filled_by": "",
+      "filled_at": null
+    },
+    "severity": "S3",
+    "source": "web"
+  },
+  {
+    "ticket_id": "udklvqjpn",
+    "ticket_status": "Open",
+    "timestamp": 1762542240.1935713,
+    "updated_at": 1762542240.1935713,
+    "subject": "Email Updates is not working",
+    "body": "The mail subscription doesnt seem to be working please check the issue.",
+    "requester_email": "shelto@gmail.com",
+    "sentiment": "Neutral",
+    "polarity": 0.0,
+    "language": "en",
+    "topics": [
+      "Technical"
+    ],
+    "retrieved": [
+      {
+        "subject": "Mailchimp Sync Problem Noted",
+        "body": "Email lists not syncing correctly",
+        "answer": "<name>, thank you for reporting the Mailchimp sync issue. Sorry to hear that email lists are not syncing correctly. Please provide details of the issue and any error messages received. I am happy to assist in resolving the problem; please call <tel_num> for further discussion.",
+        "type": "Problem",
+        "queue": "Technical Support",
+        "priority": "low",
+        "language": "en",
+        "version": "400",
+        "tags": [
+          "Bug",
+          "Performance",
+          "IT",
+          "Tech Support"
+        ]
+      },
+      {
+        "subject": "Concern about Marketing Automation Tool's Email Scheduling Feature",
+        "body": "The marketing automation tool is not sending scheduled emails. There might be an error in the software update configuration. I have reviewed the settings and restarted the tool, but the issue persists.",
+        "answer": "Acknowledged the email regarding the marketing automation tool's email scheduling issue. Further investigation is needed. Please provide the details of the software update configuration settings you have checked to assist more effectively.",
+        "type": "Incident",
+        "queue": "IT Support",
+        "priority": "medium",
+        "language": "en",
+        "version": "400",
+        "tags": [
+          "Bug",
+          "Performance",
+          "Feature",
+          "IT",
+          "Tech Support"
+        ]
+      },
+      {
+        "subject": "Mailchimp Synchronization Problem Noted Today",
+        "body": "Email lists are syncing correctly",
+        "answer": "<name>, thank you for reporting the Mailchimp sync issue. We are sorry to hear that email lists are syncing correctly. Please provide details of the issue and any error messages you have received. We are happy to assist in resolving the problem, and a call at <tel_num> may be needed to discuss further.",
+        "type": "Problem",
+        "queue": "Technical Support",
+        "priority": "low",
+        "language": "en",
+        "version": "400",
+        "tags": [
+          "Bug",
+          "Performance",
+          "IT",
+          "Tech Support"
+        ]
+      },
+      {
+        "subject": "Synchronization Difficulties with Outlook",
+        "body": "Dear Customer Support Team,\\n\\nI am reaching out for help regarding a recurring problem with Outlook email synchronization across various devices. Despite multiple self-troubleshooting efforts, the issue persists and significantly disrupts my workflow.\\n\\nThis problem began approximately two weeks ago, when I noticed that emails received in my Outlook account do not sync correctly between my laptop and smartphone. Emails sometimes appear on one device but not the other, and changes made on one device are not reflected on the other.",
+        "answer": "Thank you for reaching out about your Outlook synchronization concern. To assist you better, please inform us of whether you are using Outlook Exchange, Office 365, IMAP, or POP accounts. Additionally, provide the version of Outlook and the operating systems on your laptop and smartphone. If possible, share any error messages you encounter. This information will help us deliver targeted troubleshooting steps to restore complete synchronization. We appreciate your patience and look forward to your reply.",
+        "type": "Problem",
+        "queue": "Technical Support",
+        "priority": "medium",
+        "language": "en",
+        "version": "51",
+        "tags": [
+          "Outlook",
+          "Synchronization",
+          "Email",
+          "Tech Support",
+          "Performance"
+        ]
+      }
+    ],
+    "raw_answer": "{\n  \"priority\": \"Medium\",\n  \"category\": \"email-sync-issue\",\n  \"reply\": \"We're sorry to hear that the email subscription isn't working as expected. Can you please provide more details about the issue, such as any error messages or screenshots of the problem? Additionally, have you checked that your subscription settings are correct and up-to-date?\"\n}",
+    "parsed_priority": "Medium",
+    "parsed_category": "email-sync-issue",
+    "parsed_reply": "We're sorry to hear that the email subscription isn't working as expected. Can you please provide more details about the issue, such as any error messages or screenshots of the problem? Additionally, have you checked that your subscription settings are correct and up-to-date?",
+    "response_time": 22.042189598083496,
+    "model": "llama3.2:latest",
+    "knowledge_gap": {
+      "flagged": false,
+      "gap_reason": "",
+      "kb_fill_text": "",
+      "filled_by": "",
+      "filled_at": null
+    },
+    "severity": "S3",
+    "source": "web"
+  },
+  {
+    "ticket_id": "cvr0sukid",
+    "ticket_status": "Open",
+    "timestamp": 1763115195.719275,
+    "updated_at": 1763115220.9041994,
+    "subject": "Cannot access company VPN - Authentication keeps failing",
+    "body": "I've been trying to connect to the company VPN for the past 2 hours but keep getting \"Authentication failed\" errors. I've verified my credentials are correct - I can log into the company portal just fine with the same username and password. I'm working remotely today and need urgent access to internal servers for a client presentation at 4 PM. I've tried restarting my laptop and reinstalling the VPN client but the issue persists. The error code shown is VPN_AUTH_ERR_5542. I'm using Windows 11 and the Cisco AnyConnect client version 4.10.",
+    "requester_email": "kdrudra20047@gmail.com",
+    "sentiment": "Neutral",
+    "polarity": -0.07222222222222223,
+    "language": "en",
+    "topics": [
+      "Login Issue",
+      "Technical"
+    ],
+    "retrieved": [
+      {
+        "subject": "VPN Connection Issue",
+        "body": "Dear Support Team,\\n\\nWe are encountering a failure in VPN-router connectivity that is impacting several devices, including essential remote telemedicine systems and EMR integrations. Despite rebooting the affected devices and attempting a router reset, the problem remains unresolved. We suspect that recent modifications to network settings may have caused firmware inconsistencies. This disruption is critically affecting our operations, and we urgently need assistance to identify and fix the root cause. Kindly advise on further troubleshooting steps.",
+        "answer": "Thank you for bringing this issue to our attention. Please provide the model number of your VPN router, the current firmware version installed, and details of any recent network configuration changes. This information will help us diagnose the problem and recommend suitable troubleshooting actions or firmware updates.",
+        "type": "Incident",
+        "queue": "Product Support",
+        "priority": "medium",
+        "language": "en",
+        "version": "51",
+        "tags": [
+          "Network",
+          "VPN",
+          "Connectivity",
+          "Tech Support"
+        ]
+      },
+      {
+        "subject": "VPN Access Issue",
+        "body": "Customer Support,\\n\\nWe are encountering a disruption in VPN-router connectivity that is impacting several devices, notably essential remote telemedicine systems and EMR integrations. Attempts to resolve the issue by restarting affected devices and resetting the router have been unsuccessful. We suspect the problem may be related to firmware discrepancies following recent network configuration updates. This disruption is significantly affecting our operations, and we urgently need assistance to identify and fix the root cause. Kindly advise on additional troubleshooting steps.",
+        "answer": "Thank you for reporting this problem. Please provide the model of your VPN router, the current firmware version, and details of any recent network modifications. This information will assist us in diagnosing the issue and recommending suitable troubleshooting measures or firmware updates.",
+        "type": "Incident",
+        "queue": "Product Support",
+        "priority": "medium",
+        "language": "en",
+        "version": "51",
+        "tags": [
+          "Network",
+          "Disruption",
+          "VPN",
+          "Tech Support"
+        ]
+      },
+      {
+        "subject": "Problem with VPN",
+        "body": "Our marketing agency is facing connectivity issues with the VPN-Router, which is affecting our digital strategies. The problem might have arisen due to recent software updates or changes in network configuration. We have already tried rebooting the router and checking the configurations, but the issue still persists. We would greatly appreciate your help in resolving this matter as soon as possible.",
+        "answer": "Please contact us at <tel_num> to troubleshoot the VPN issue and resolve the connectivity problem.",
+        "type": "Problem",
+        "queue": "IT Support",
+        "priority": "high",
+        "language": "en",
+        "version": "400",
+        "tags": [
+          "Network",
+          "Performance",
+          "IT",
+          "Tech Support"
+        ]
+      }
+    ],
+    "raw_answer": "{\n  \"priority\": \"High\",\n  \"category\": \"tech-support-1\"\n}",
+    "parsed_priority": "High",
+    "parsed_category": "tech-support-1",
+    "parsed_reply": "Thanks for reaching out. Could you share more details (steps to reproduce, screenshots, timestamps) so we can assist quickly?",
+    "response_time": 22.72417640686035,
+    "model": "llama3.2:1b",
+    "knowledge_gap": {
+      "flagged": false,
+      "gap_reason": "",
+      "kb_fill_text": "The issue was caused by expired MFA tokens in the authentication server. IT admin reset the user's MFA enrollment and cleared cached credentials on the VPN gateway. User was instructed to re-enroll MFA through the company portal and reconnect. VPN connection established successfully after MFA re-enrollment. Added monitoring alert for similar authentication failures",
+      "filled_by": "Admin",
+      "filled_at": 1763115220.9041994
+    },
+    "severity": "S3",
+    "source": "web"
+  },
+  {
+    "ticket_id": "s_lnlvrqn",
+    "ticket_status": "Open",
+    "timestamp": 1763115281.0775623,
+    "updated_at": 1763115281.0775623,
+    "subject": "Cannot access company VPN - Authentication keeps failing",
+    "body": "I've been trying to connect to the company VPN for the past 2 hours but keep getting \"Authentication failed\" errors. I've verified my credentials are correct - I can log into the company portal just fine with the same username and password. I'm working remotely today and need urgent access to internal servers for a client presentation at 4 PM. I've tried restarting my laptop and reinstalling the VPN client but the issue persists. The error code shown is VPN_AUTH_ERR_5542. I'm using Windows 11 and the Cisco AnyConnect client version 4.10.",
+    "requester_email": "kdrudra20047@gmail.com",
+    "sentiment": "Neutral",
+    "polarity": -0.07222222222222223,
+    "language": "en",
+    "topics": [
+      "Login Issue",
+      "Technical"
+    ],
+    "retrieved": [
+      {
+        "subject": "VPN Connection Issue",
+        "body": "Dear Support Team,\\n\\nWe are encountering a failure in VPN-router connectivity that is impacting several devices, including essential remote telemedicine systems and EMR integrations. Despite rebooting the affected devices and attempting a router reset, the problem remains unresolved. We suspect that recent modifications to network settings may have caused firmware inconsistencies. This disruption is critically affecting our operations, and we urgently need assistance to identify and fix the root cause. Kindly advise on further troubleshooting steps.",
+        "answer": "Thank you for bringing this issue to our attention. Please provide the model number of your VPN router, the current firmware version installed, and details of any recent network configuration changes. This information will help us diagnose the problem and recommend suitable troubleshooting actions or firmware updates.",
+        "type": "Incident",
+        "queue": "Product Support",
+        "priority": "medium",
+        "language": "en",
+        "version": "51",
+        "tags": [
+          "Network",
+          "VPN",
+          "Connectivity",
+          "Tech Support"
+        ]
+      },
+      {
+        "subject": "VPN Access Issue",
+        "body": "Customer Support,\\n\\nWe are encountering a disruption in VPN-router connectivity that is impacting several devices, notably essential remote telemedicine systems and EMR integrations. Attempts to resolve the issue by restarting affected devices and resetting the router have been unsuccessful. We suspect the problem may be related to firmware discrepancies following recent network configuration updates. This disruption is significantly affecting our operations, and we urgently need assistance to identify and fix the root cause. Kindly advise on additional troubleshooting steps.",
+        "answer": "Thank you for reporting this problem. Please provide the model of your VPN router, the current firmware version, and details of any recent network modifications. This information will assist us in diagnosing the issue and recommending suitable troubleshooting measures or firmware updates.",
+        "type": "Incident",
+        "queue": "Product Support",
+        "priority": "medium",
+        "language": "en",
+        "version": "51",
+        "tags": [
+          "Network",
+          "Disruption",
+          "VPN",
+          "Tech Support"
+        ]
+      },
+      {
+        "subject": "Problem with VPN",
+        "body": "Our marketing agency is facing connectivity issues with the VPN-Router, which is affecting our digital strategies. The problem might have arisen due to recent software updates or changes in network configuration. We have already tried rebooting the router and checking the configurations, but the issue still persists. We would greatly appreciate your help in resolving this matter as soon as possible.",
+        "answer": "Please contact us at <tel_num> to troubleshoot the VPN issue and resolve the connectivity problem.",
+        "type": "Problem",
+        "queue": "IT Support",
+        "priority": "high",
+        "language": "en",
+        "version": "400",
+        "tags": [
+          "Network",
+          "Performance",
+          "IT",
+          "Tech Support"
+        ]
+      }
+    ],
+    "raw_answer": "{\n  \"priority\": \"High\",\n  \"category\": \"VPN Connection Issue\",\n  \"reply\": \"To resolve the authentication failure, please provide the model number of your VPN router and the current firmware version installed. Also, check if any recent network configuration changes have been made, as they might be causing firmware discrepancies. Our KB_Answer (KB_Answer_1) provides further guidance on troubleshooting steps. If you're still experiencing issues, please contact us at <tel_num> for assistance.\"\n}",
+    "parsed_priority": "High",
+    "parsed_category": "VPN Connection Issue",
+    "parsed_reply": "To resolve the authentication failure, please provide the model number of your VPN router and the current firmware version installed. Also, check if any recent network configuration changes have been made, as they might be causing firmware discrepancies. Our KB_Answer (KB_Answer_1) provides further guidance on troubleshooting steps. If you're still experiencing issues, please contact us at <tel_num> for assistance.",
+    "response_time": 49.63738799095154,
+    "model": "llama3.2:latest",
+    "knowledge_gap": {
+      "flagged": false,
+      "gap_reason": "",
+      "kb_fill_text": "",
+      "filled_by": "",
+      "filled_at": null
+    },
+    "severity": "S3",
+    "source": "web"
+  },
+  {
+    "ticket_id": "spgs4jb27",
+    "ticket_status": "Open",
+    "timestamp": 1763115573.728191,
+    "updated_at": 1763115573.728191,
+    "subject": "Cannot access company VPN - Authentication keeps failing",
+    "body": " I've been trying to connect to the company VPN for the past 2 hours but keep getting \"Authentication failed\" errors. I've verified my credentials are correct - I can log into the company portal just fine with the same username and password. I'm working remotely today and need urgent access to internal servers for a client presentation at 4 PM. I've tried restarting my laptop and reinstalling the VPN client but the issue persists. The error code shown is VPN_AUTH_ERR_5542. I'm using Windows 11 and the Cisco AnyConnect client version 4.10.",
+    "requester_email": "",
+    "sentiment": "Neutral",
+    "polarity": -0.07222222222222223,
+    "language": "en",
+    "topics": [
+      "Login Issue",
+      "Technical"
+    ],
+    "retrieved": [
+      {
+        "subject": "VPN Connection Issue",
+        "body": "Dear Support Team,\\n\\nWe are encountering a failure in VPN-router connectivity that is impacting several devices, including essential remote telemedicine systems and EMR integrations. Despite rebooting the affected devices and attempting a router reset, the problem remains unresolved. We suspect that recent modifications to network settings may have caused firmware inconsistencies. This disruption is critically affecting our operations, and we urgently need assistance to identify and fix the root cause. Kindly advise on further troubleshooting steps.",
+        "answer": "Thank you for bringing this issue to our attention. Please provide the model number of your VPN router, the current firmware version installed, and details of any recent network configuration changes. This information will help us diagnose the problem and recommend suitable troubleshooting actions or firmware updates.",
+        "type": "Incident",
+        "queue": "Product Support",
+        "priority": "medium",
+        "language": "en",
+        "version": "51",
+        "tags": [
+          "Network",
+          "VPN",
+          "Connectivity",
+          "Tech Support"
+        ]
+      },
+      {
+        "subject": "VPN Access Issue",
+        "body": "Customer Support,\\n\\nWe are encountering a disruption in VPN-router connectivity that is impacting several devices, notably essential remote telemedicine systems and EMR integrations. Attempts to resolve the issue by restarting affected devices and resetting the router have been unsuccessful. We suspect the problem may be related to firmware discrepancies following recent network configuration updates. This disruption is significantly affecting our operations, and we urgently need assistance to identify and fix the root cause. Kindly advise on additional troubleshooting steps.",
+        "answer": "Thank you for reporting this problem. Please provide the model of your VPN router, the current firmware version, and details of any recent network modifications. This information will assist us in diagnosing the issue and recommending suitable troubleshooting measures or firmware updates.",
+        "type": "Incident",
+        "queue": "Product Support",
+        "priority": "medium",
+        "language": "en",
+        "version": "51",
+        "tags": [
+          "Network",
+          "Disruption",
+          "VPN",
+          "Tech Support"
+        ]
+      },
+      {
+        "subject": "Problem with VPN",
+        "body": "Our marketing agency is facing connectivity issues with the VPN-Router, which is affecting our digital strategies. The problem might have arisen due to recent software updates or changes in network configuration. We have already tried rebooting the router and checking the configurations, but the issue still persists. We would greatly appreciate your help in resolving this matter as soon as possible.",
+        "answer": "Please contact us at <tel_num> to troubleshoot the VPN issue and resolve the connectivity problem.",
+        "type": "Problem",
+        "queue": "IT Support",
+        "priority": "high",
+        "language": "en",
+        "version": "400",
+        "tags": [
+          "Network",
+          "Performance",
+          "IT",
+          "Tech Support"
+        ]
+      }
+    ],
+    "raw_answer": "{\n  \"priority\": \"High\",\n  \"category\": \"VPN-connection-issue\",\n  \"reply\": \"{\\\"model_number\\\": \\\"VPN-router\\\", \\\"current_firmware_version\\\": \\\"4.10.0\\\", \\\"recent_network_modifications\\\": \\\"Recent network configuration updates\\\"}\",\n  \"queue\": \"Product Support\"\n}",
+    "parsed_priority": "High",
+    "parsed_category": "VPN-connection-issue",
+    "parsed_reply": "{\"model_number\": \"VPN-router\", \"current_firmware_version\": \"4.10.0\", \"recent_network_modifications\": \"Recent network configuration updates\"}",
+    "response_time": 18.883082151412964,
+    "model": "llama3.2:1b",
+    "knowledge_gap": {
+      "flagged": false,
+      "gap_reason": "",
+      "kb_fill_text": "",
+      "filled_by": "",
+      "filled_at": null
+    },
+    "severity": "S3",
+    "source": "web"
+  },
+  {
+    "ticket_id": "xqbosstv1",
+    "ticket_status": "Open",
+    "timestamp": 1763115632.944838,
+    "updated_at": 1763115632.944838,
+    "subject": "Cannot access company VPN - Authentication keeps failing",
+    "body": " I've been trying to connect to the company VPN for the past 2 hours but keep getting \"Authentication failed\" errors. I've verified my credentials are correct - I can log into the company portal just fine with the same username and password. I'm working remotely today and need urgent access to internal servers for a client presentation at 4 PM. I've tried restarting my laptop and reinstalling the VPN client but the issue persists. The error code shown is VPN_AUTH_ERR_5542. I'm using Windows 11 and the Cisco AnyConnect client version 4.10.",
+    "requester_email": "",
+    "sentiment": "Neutral",
+    "polarity": -0.07222222222222223,
+    "language": "en",
+    "topics": [
+      "Login Issue",
+      "Technical"
+    ],
+    "retrieved": [
+      {
+        "subject": "VPN Connection Issue",
+        "body": "Dear Support Team,\\n\\nWe are encountering a failure in VPN-router connectivity that is impacting several devices, including essential remote telemedicine systems and EMR integrations. Despite rebooting the affected devices and attempting a router reset, the problem remains unresolved. We suspect that recent modifications to network settings may have caused firmware inconsistencies. This disruption is critically affecting our operations, and we urgently need assistance to identify and fix the root cause. Kindly advise on further troubleshooting steps.",
+        "answer": "Thank you for bringing this issue to our attention. Please provide the model number of your VPN router, the current firmware version installed, and details of any recent network configuration changes. This information will help us diagnose the problem and recommend suitable troubleshooting actions or firmware updates.",
+        "type": "Incident",
+        "queue": "Product Support",
+        "priority": "medium",
+        "language": "en",
+        "version": "51",
+        "tags": [
+          "Network",
+          "VPN",
+          "Connectivity",
+          "Tech Support"
+        ]
+      },
+      {
+        "subject": "VPN Access Issue",
+        "body": "Customer Support,\\n\\nWe are encountering a disruption in VPN-router connectivity that is impacting several devices, notably essential remote telemedicine systems and EMR integrations. Attempts to resolve the issue by restarting affected devices and resetting the router have been unsuccessful. We suspect the problem may be related to firmware discrepancies following recent network configuration updates. This disruption is significantly affecting our operations, and we urgently need assistance to identify and fix the root cause. Kindly advise on additional troubleshooting steps.",
+        "answer": "Thank you for reporting this problem. Please provide the model of your VPN router, the current firmware version, and details of any recent network modifications. This information will assist us in diagnosing the issue and recommending suitable troubleshooting measures or firmware updates.",
+        "type": "Incident",
+        "queue": "Product Support",
+        "priority": "medium",
+        "language": "en",
+        "version": "51",
+        "tags": [
+          "Network",
+          "Disruption",
+          "VPN",
+          "Tech Support"
+        ]
+      },
+      {
+        "subject": "Problem with VPN",
+        "body": "Our marketing agency is facing connectivity issues with the VPN-Router, which is affecting our digital strategies. The problem might have arisen due to recent software updates or changes in network configuration. We have already tried rebooting the router and checking the configurations, but the issue still persists. We would greatly appreciate your help in resolving this matter as soon as possible.",
+        "answer": "Please contact us at <tel_num> to troubleshoot the VPN issue and resolve the connectivity problem.",
+        "type": "Problem",
+        "queue": "IT Support",
+        "priority": "high",
+        "language": "en",
+        "version": "400",
+        "tags": [
+          "Network",
+          "Performance",
+          "IT",
+          "Tech Support"
+        ]
+      }
+    ],
+    "raw_answer": "{\n  \"priority\": \"High\",\n  \"category\": \"VPN\",\n  \"reply\": \"To resolve the authentication failure issue, we need more information about your VPN setup. Please provide the model number of your VPN router, the current firmware version installed, and details of any recent network configuration changes. Additionally, please check for expired MFA tokens in the authentication server and ensure that all MFA enrollments are up-to-date. If you have already checked these and the issue persists, please contact our support team at <tel_num> to troubleshoot and resolve the problem.\"\n}",
+    "parsed_priority": "High",
+    "parsed_category": "VPN",
+    "parsed_reply": "To resolve the authentication failure issue, we need more information about your VPN setup. Please provide the model number of your VPN router, the current firmware version installed, and details of any recent network configuration changes. Additionally, please check for expired MFA tokens in the authentication server and ensure that all MFA enrollments are up-to-date. If you have already checked these and the issue persists, please contact our support team at <tel_num> to troubleshoot and resolve the problem.",
+    "response_time": 49.93963646888733,
+    "model": "llama3.2:latest",
+    "knowledge_gap": {
+      "flagged": false,
+      "gap_reason": "",
+      "kb_fill_text": "",
+      "filled_by": "",
+      "filled_at": null
+    },
+    "severity": "S3",
+    "source": "web"
+  },
+  {
+    "ticket_id": "acsg3puqs",
+    "ticket_status": "Closed",
+    "timestamp": 1763115899.5179474,
+    "updated_at": 1763116237.6868627,
+    "subject": "Slack notifications not working and mobile app crashes on Android",
+    "body": "My Slack app has been acting weird since yesterday. On my desktop (Windows), I'm not receiving any notifications even though I have them enabled in settings. I've checked both Windows notification settings and Slack preferences - everything looks correct. More concerning, the mobile app on my Samsung Galaxy S23 crashes every time I try to open a channel with images or files. The app just freezes for 5-10 seconds and then closes completely. I've already tried clearing the cache and reinstalling the app but no luck. This is affecting my ability to stay updated on urgent project messages from my team. App version is 23.10.10 on Android 14.",
+    "requester_email": "sharon@google.com",
+    "sentiment": "Neutral",
+    "polarity": 0.02,
+    "language": "en",
+    "topics": [
+      "Technical",
+      "Account"
+    ],
+    "retrieved": [
+      {
+        "subject": "Problem with Slack",
+        "body": "Encountered an incident where users are facing connectivity issues with the Slack SaaS platform. The issue might have arisen due to recent updates in iOS 15 and Express.js 4.17 compatibility. Steps taken to resolve the issue included checking API integrations, rebooting devices, and verifying network connections, but the issue persists.",
+        "answer": "<name> has acknowledged the issue with the Slack connectivity on the SaaS platform. Thank you for providing detailed information and the steps you have already taken to resolve the issue, which included checking API integrations, rebooting devices, and verifying network connections. We understand that recent updates in iOS 15 and Express.js 4.17 compatibility might be causing the problem. We will investigate the incident further. Could you please provide any error messages you are receiving and the exact steps you have taken so far?",
+        "type": "Incident",
+        "queue": "Technical Support",
+        "priority": "high",
+        "language": "en",
+        "version": "400",
+        "tags": [
+          "Network",
+          "Performance",
+          "Disruption",
+          "IT",
+          "Tech Support"
+        ]
+      },
+      {
+        "subject": "Issues with Slack Integration",
+        "body": "A problem has been identified where users are experiencing connection issues with Slack on our SaaS platform. The issue seems to be related to the latest updates on iOS 15 and Express.js 4.17. Efforts to resolve the problem have included checking API integrations, restarting devices, and verifying network connections, but the issues persist.",
+        "answer": "Dear [name],\\n\\nI would like to reassure you that we have documented the issue with the Slack connection to our SaaS platform. Thank you for the detailed information and the efforts you have made to resolve the problem, which included checking API integrations, restarting devices, and verifying network connections. It is likely that the issues stem from the latest updates on iOS 15 and Express.js 4.17.\\n\\nTo investigate the issue further, please provide more details about any error messages you encounter, as this will assist us in finding a solution.",
+        "type": "Incident",
+        "queue": "Technical Support",
+        "priority": "high",
+        "language": "de",
+        "version": "400",
+        "tags": [
+          "Bug",
+          "Network",
+          "Performance",
+          "IT",
+          "Tech Support"
+        ]
+      },
+      {
+        "subject": "Problem with Mobile App Performance",
+        "body": "There is a critical bug that is causing the project management app to crash on both iOS and Android devices after recent software updates. We have attempted to clear the caches and reinstall the app, but the issue still persists.",
+        "answer": "We apologize for the issues you are experiencing with the mobile app on iOS and Android devices. We understand that despite your efforts to clear the caches and reinstall the app, the problems continue. To better assist you, we would like to investigate the matter further. Could you please provide us with more details about the recent software updates installed and any specific error messages you are receiving? We will then schedule a call at your convenient time, <tel_num>, to discuss the issue in detail and work towards a resolution.",
+        "type": "Incident",
+        "queue": "Product Support",
+        "priority": "medium",
+        "language": "en",
+        "version": "400",
+        "tags": [
+          "Bug",
+          "Performance",
+          "IT",
+          "Tech Support"
+        ]
+      }
+    ],
+    "raw_answer": "{\n  \"priority\": \"High\",\n  \"category\": \"Technical Support\",\n  \"reply\": \"Dear valued customer,\\n\\nThank you for reaching out to us regarding the issues with your Slack notifications not working on Windows and the mobile app crashing on Android. We apologize for the inconvenience this has caused and appreciate you providing detailed information about the problem.\\n\\nOur initial investigation suggests that recent updates in iOS 15 and Express.js 4.17 might be causing the issue. Could you please provide any error messages you are receiving?\\n\\nTo further assist you, we will investigate this matter further and schedule a call at your convenient time (1234567890) to discuss the issue in detail and work towards a resolution.\\n\\nThank you for your patience and cooperation.\\n\\nBest regards,\\nHelp@KnowledgeEngine.com\"\n}",
+    "parsed_priority": "High",
+    "parsed_category": "Technical Support",
+    "parsed_reply": "Dear valued customer,\n\nThank you for reaching out to us regarding the issues with your Slack notifications not working on Windows and the mobile app crashing on Android. We apologize for the inconvenience this has caused and appreciate you providing detailed information about the problem.\n\nOur initial investigation suggests that recent updates in iOS 15 and Express.js 4.17 might be causing the issue. Could you please provide any error messages you are receiving?\n\nTo further assist you, we will investigate this matter further and schedule a call at your convenient time (1234567890) to discuss the issue in detail and work towards a resolution.\n\nThank you for your patience and cooperation.\n\nBest regards,\nHelp@KnowledgeEngine.com",
+    "response_time": 60.47832250595093,
+    "model": "llama3.2:latest",
+    "knowledge_gap": {
+      "flagged": false,
+      "gap_reason": "",
+      "kb_fill_text": "Desktop notification issue resolved by clearing Slack's local storage cache and re-authenticating the desktop app. Mobile crash was caused by a known bug in version 23.10.10 with image rendering on Android 14 devices. User was guided to update to version 23.10.30 from Play Store which included the fix. Verified notifications working on desktop and mobile app stability restored. Created internal documentation for similar Android 14 Slack issues.",
+      "filled_by": "Admin",
+      "filled_at": 1763115991.9796302
+    },
+    "severity": "S3",
+    "source": "web"
+  },
+  {
+    "ticket_id": "cpxorqarp",
+    "ticket_status": "Closed",
+    "timestamp": 1763116182.370206,
+    "updated_at": 1763116233.0040922,
+    "subject": "Application Troubleshooting, Mobile Platforms, Messaging Tools",
+    "body": "Since yesterday, Slack hasn't been behaving normally. On my Windows PC, I'm not getting any alerts even though all notification options are on both in the app and in Windows settings. More urgently, the Android app on my Samsung Galaxy S23 keeps crashing—whenever I try to open a chat that contains images or attached files, the app lags for a few seconds and then completely shuts down. I’ve attempted to fix this by clearing the app cache and reinstalling, but the issues continue. Not being able to receive Slack notifications or use the mobile app is disrupting timely communication on important projects. The issues appear on app version 23.10.10 running Android 14.",
+    "requester_email": "tekken@google.com",
+    "sentiment": "Positive",
+    "polarity": 0.16180555555555556,
+    "language": "en",
+    "topics": [
+      "Account"
+    ],
+    "retrieved": [
+      {
+        "subject": "Problem with Slack",
+        "body": "Encountered an incident where users are facing connectivity issues with the Slack SaaS platform. The issue might have arisen due to recent updates in iOS 15 and Express.js 4.17 compatibility. Steps taken to resolve the issue included checking API integrations, rebooting devices, and verifying network connections, but the issue persists.",
+        "answer": "<name> has acknowledged the issue with the Slack connectivity on the SaaS platform. Thank you for providing detailed information and the steps you have already taken to resolve the issue, which included checking API integrations, rebooting devices, and verifying network connections. We understand that recent updates in iOS 15 and Express.js 4.17 compatibility might be causing the problem. We will investigate the incident further. Could you please provide any error messages you are receiving and the exact steps you have taken so far?",
+        "type": "Incident",
+        "queue": "Technical Support",
+        "priority": "high",
+        "language": "en",
+        "version": "400",
+        "tags": [
+          "Network",
+          "Performance",
+          "Disruption",
+          "IT",
+          "Tech Support"
+        ]
+      },
+      {
+        "subject": "Issues with Slack Integration",
+        "body": "A problem has been identified where users are experiencing connection issues with Slack on our SaaS platform. The issue seems to be related to the latest updates on iOS 15 and Express.js 4.17. Efforts to resolve the problem have included checking API integrations, restarting devices, and verifying network connections, but the issues persist.",
+        "answer": "Dear [name],\\n\\nI would like to reassure you that we have documented the issue with the Slack connection to our SaaS platform. Thank you for the detailed information and the efforts you have made to resolve the problem, which included checking API integrations, restarting devices, and verifying network connections. It is likely that the issues stem from the latest updates on iOS 15 and Express.js 4.17.\\n\\nTo investigate the issue further, please provide more details about any error messages you encounter, as this will assist us in finding a solution.",
+        "type": "Incident",
+        "queue": "Technical Support",
+        "priority": "high",
+        "language": "de",
+        "version": "400",
+        "tags": [
+          "Bug",
+          "Network",
+          "Performance",
+          "IT",
+          "Tech Support"
+        ]
+      },
+      {
+        "subject": "Issue with Slack Connection",
+        "body": "Noted a problem with Slack connections for our SaaS platform, where users are experiencing issues with their connections. The problem seems to be related to recent iOS 15 updates and Express.js 4.17 compatibility. Efforts to resolve the issue included checking API integrations, restarting devices, and verifying network connections, but the issue persists.",
+        "answer": "Dear [Name],\\n\\nI acknowledge the issue with the Slack connection to our SaaS platform. Thank you for providing detailed information on the steps taken to resolve the problem, which included checking API integrations, restarting devices, and verifying network connections. Given that recent iOS 15 updates and Express.js 4.17 compatibility may be the cause, we would appreciate more detailed information about the error to further investigate the issue.",
+        "type": "Incident",
+        "queue": "Technical Support",
+        "priority": "high",
+        "language": "de",
+        "version": "400",
+        "tags": [
+          "Network",
+          "Performance",
+          "Bug",
+          "IT",
+          "Tech Support"
+        ]
+      },
+      {
+        "subject": "Problem with Mobile App Performance",
+        "body": "There is a critical bug that is causing the project management app to crash on both iOS and Android devices after recent software updates. We have attempted to clear the caches and reinstall the app, but the issue still persists.",
+        "answer": "We apologize for the issues you are experiencing with the mobile app on iOS and Android devices. We understand that despite your efforts to clear the caches and reinstall the app, the problems continue. To better assist you, we would like to investigate the matter further. Could you please provide us with more details about the recent software updates installed and any specific error messages you are receiving? We will then schedule a call at your convenient time, <tel_num>, to discuss the issue in detail and work towards a resolution.",
+        "type": "Incident",
+        "queue": "Product Support",
+        "priority": "medium",
+        "language": "en",
+        "version": "400",
+        "tags": [
+          "Bug",
+          "Performance",
+          "IT",
+          "Tech Support"
+        ]
+      },
+      {
+        "subject": "Problem with Mobile Application Performance",
+        "body": "There is a serious issue with the project management app that is causing it to crash on iOS and Android devices after recent software updates. We have attempted to resolve the problem by clearing caches and reinstalling the app, but the issues continue to occur.",
+        "answer": "We apologize for the difficulties you are experiencing with the mobile app on iOS and Android devices. We understand that despite your efforts to clear caches and reinstall the app, the issues persist. To better assist you, we would like to investigate the matter further. Could you please provide us with details about the recent software updates installed and any exact error messages you are receiving? We will schedule a call at your convenient time at <tel_num> to discuss the issue in detail and work towards a resolution.",
+        "type": "Incident",
+        "queue": "Product Support",
+        "priority": "medium",
+        "language": "en",
+        "version": "400",
+        "tags": [
+          "Performance",
+          "IT",
+          "Tech Support"
+        ]
+      },
+      {
+        "subject": "Concerns About Mobile App Performance",
+        "body": "A significant glitch is leading to the crash of the project management app on both iOS and Android devices following the latest software updates. Efforts to resolve the issue by clearing caches and reinstalling the app have been unsuccessful.",
+        "answer": "We apologize for the issues you're experiencing with the mobile app on iOS and Android devices. We understand that despite your attempts to clear caches and reinstall the app, the problems persist. To better assist you, we would like to investigate the matter further. Could you please provide us with more details about the recent software updates installed and any specific error messages you are receiving? At your convenience, we can schedule a call to discuss the issue in detail and work towards a solution. Please reach out at <tel_num>.",
+        "type": "Incident",
+        "queue": "Product Support",
+        "priority": "medium",
+        "language": "en",
+        "version": "400",
+        "tags": [
+          "Performance",
+          "Bug",
+          "Crash",
+          "IT",
+          "Tech Support"
+        ]
+      }
+    ],
+    "raw_answer": "{\n  \"priority\": \"High\",\n  \"category\": \"Technical Support\",\n  \"reply\": \"Dear [Name],\\n\\nWe acknowledge the issue with Slack connections on our SaaS platform. Thank you for providing detailed information and steps taken to resolve the problem, which included checking API integrations, restarting devices, and verifying network connections. We understand that recent updates in iOS 15 and Express.js 4.17 compatibility may be causing the problem. Please provide more details about any error messages you encounter, as this will assist us in finding a solution.\\n\\nTo investigate further, we recommend clearing your local storage cache, re-authenticating the desktop app, and updating to version 23.10.30 from Play Store (known fix for Android 14 Slack issues). We'll schedule a call at <tel_num> to discuss the issue in detail and work towards a resolution.\\n\\nHelp@KnowledgeEngine.com | +1-555-1234\"\n}",
+    "parsed_priority": "High",
+    "parsed_category": "Technical Support",
+    "parsed_reply": "Dear [Name],\n\nWe acknowledge the issue with Slack connections on our SaaS platform. Thank you for providing detailed information and steps taken to resolve the problem, which included checking API integrations, restarting devices, and verifying network connections. We understand that recent updates in iOS 15 and Express.js 4.17 compatibility may be causing the problem. Please provide more details about any error messages you encounter, as this will assist us in finding a solution.\n\nTo investigate further, we recommend clearing your local storage cache, re-authenticating the desktop app, and updating to version 23.10.30 from Play Store (known fix for Android 14 Slack issues). We'll schedule a call at <tel_num> to discuss the issue in detail and work towards a resolution.\n\nHelp@KnowledgeEngine.com | +1-555-1234",
+    "response_time": 76.5629231929779,
+    "model": "llama3.2:latest",
+    "knowledge_gap": {
+      "flagged": false,
+      "gap_reason": "",
+      "kb_fill_text": "",
+      "filled_by": "",
+      "filled_at": null
+    },
+    "severity": "S3",
+    "source": "web"
+  }
+]

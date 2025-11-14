@@ -1,0 +1,11 @@
+Subject: High latency detected in east-region servers
+
+Team,
+
+We are observing unusually high latency from the east-region VMs (average > 1200ms).  
+Ping tests to the internal load balancer are timing out intermittently. Could this be due to the recent firewall rule update?
+
+Please check network routes and confirm.
+
+Regards,  
+Network Monitoring Team
