@@ -7,7 +7,8 @@
 [![Built with Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-FF4B4B)](https://streamlit.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![AI Support Header](https://images.unsplash.com/photo-1531746790731-6c087fecd65e0?w=1200&h=300&fit=crop&q=80)
+![AI Support Header](https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&h=300&fit=crop&q=80)
+
 
 ---
 
